@@ -11,6 +11,7 @@ font-family: 'Lexend Deca', sans-serif; */
 body {
   margin: 0 auto;
   background-color: hsl(233, 47%, 7%);
+  color: hsl(0, 0%, 100%);
 }
 
 .wrapper {
