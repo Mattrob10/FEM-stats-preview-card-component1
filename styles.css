@@ -6,6 +6,8 @@ font-family: 'Lexend Deca', sans-serif; */
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -14,7 +16,7 @@ body {
   color: hsl(0, 0%, 100%);
 }
 
-.wrapper {
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -113,7 +115,7 @@ body {
 
 /* Desktop Media*/
 @media (min-width: 1200px) {
-  .wrapper {
+  .main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,11 +146,11 @@ body {
   }
   .card-img {
     grid-area: card-img;
-    height: 445px;
+    height: 440px;
     border-radius: 0 15px 15px 0;
   }
   .card-img img {
-    height: 445px;
+    height: 440px;
     border-radius: 0 15px 15px 0;
   }
   .card-info {
